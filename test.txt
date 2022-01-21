@@ -1,1 +1,28 @@
 Oksana Cook
+
+oksanacook@Oksanas-iMac newPractice % git commit -m "First commit"  
+[master (root-commit) eb50694] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+oksanacook@Oksanas-iMac newPractice % git remote add origin git@github.com:Oksana169/newPractice.git
+oksanacook@Oksanas-iMac newPractice % git branch -M main
+oksanacook@Oksanas-iMac newPractice % git push --set-upstream origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Oksana169/newPractice.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+oksanacook@Oksanas-iMac newPractice % git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 639 bytes | 319.00 KiB/s, done.
+From github.com:Oksana169/newPractice
+   eb50694..dd0eea2  main       -> origin/main
+Updating eb50694..dd0eea2
+Fast-forward
+ test.txt | 1 +
+ 1 file changed, 1 insertion(+)
+oksanacook@Oksanas-iMac newPractice %
